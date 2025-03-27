@@ -135,9 +135,10 @@ footer {
 }
 
 .hero-gif {
-  width: 60px;
-  margin-top: 1rem;
+  width: 30px;
+  margin-top: 0.5rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0.85;
 }
