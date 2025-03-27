@@ -134,11 +134,9 @@ footer {
   margin-top: 4rem;
 }
 
-.hero-gif {
-  width: 30px;
-  margin-top: 0.5rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0.85;
+.name-gif {
+  width: 22px;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  margin-bottom: 3px;
 }
