@@ -133,3 +133,11 @@ footer {
   border-top: 1px solid #ddd;
   margin-top: 4rem;
 }
+
+.hero-gif {
+  width: 60px;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
