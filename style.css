@@ -134,10 +134,9 @@ footer {
   margin-top: 4rem;
 }
 
-.name-gif {
-  height: 1.2em;
-  margin-left: 0.5rem;
-  position: relative;
-  top: -1px;
-  opacity: 0.95;
+.hero-bubble {
+  width: 28px;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  opacity: 0.9;
 }
