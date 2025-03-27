@@ -135,8 +135,8 @@ footer {
 }
 
 .hero-bubble {
-  width: 28px;
+  width: 35px;
   display: block;
-  margin: 0 auto 0.5rem auto;
+  margin: 0 auto 1rem auto;
   opacity: 0.9;
 }
