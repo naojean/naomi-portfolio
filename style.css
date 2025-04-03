@@ -142,7 +142,7 @@ footer {
 }
 
 .image-container img {
-  max-width: 30%; /* Adjust width as needed */
+  width: 200px; /* Sets each image to a fixed width */
   height: auto;
   margin: 0.5em;
 }
