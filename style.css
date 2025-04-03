@@ -136,11 +136,12 @@ footer {
 
 .project-images .image-container {
   display: flex;
-  justify-content: space-between;
-  gap: 20px; /* Adds spacing between images */
+  justify-content: space-evenly; /* Adds space between images */
+  gap: 20px;
 }
 
 .project-images img {
-  width: 200px; /* Adjust the width as needed */
-  height: auto; /* Keeps the aspect ratio */
+  width: 150px; /* Set a medium size for the images */
+  height: auto; /* Maintain aspect ratio */
 }
+
