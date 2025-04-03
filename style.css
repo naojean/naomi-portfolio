@@ -134,14 +134,15 @@ footer {
   margin-top: 4rem;
 }
 
-.project-images .image-container {
+.image-container {
   display: flex;
-  justify-content: space-evenly; /* Adds space between images */
-  gap: 20px;
+  justify-content: space-around; /* Adjust spacing as needed */
+  flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+  margin: 1em 0;
 }
 
-.project-images img {
-  width: 150px; /* Set a medium size for the images */
-  height: auto; /* Maintain aspect ratio */
+.image-container img {
+  max-width: 30%; /* Adjust width as needed */
+  height: auto;
+  margin: 0.5em;
 }
-
