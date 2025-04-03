@@ -134,14 +134,13 @@ footer {
   margin-top: 4rem;
 }
 
-.project-images {
-    display: flex;
-    justify-content: space-around; /* Distributes images with some space */
-    flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+.project-images .image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adds spacing between images */
 }
 
 .project-images img {
-    max-width: 30%; /* Adjust the percentage to control image size */
-    margin: 10px; /* Adds space around images */
-    border-radius: 8px; /* Optional: adds rounded corners */
+  width: 30%; /* Adjusts the size of the images */
+  height: auto; /* Keeps the aspect ratio */
 }
