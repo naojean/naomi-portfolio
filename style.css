@@ -146,3 +146,18 @@ footer {
   height: auto;
   margin: 0.5em;
 }
+
+/* Profile picture styles */
+.profile-container {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.profile-pic {
+  width: 70px;   /* smaller size */
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 6px rgba(0,0,0,0.12);
+}
